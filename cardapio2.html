@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nossas pizzas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="pizza (7).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="menu">
+      <section id="sectionheader">
+        <div id="homeHeader">
+          <a href="index.html"> <img src="logo.png" alt="Home" id="home" /></a>
+        </div>
+        <div id="headerEnd">
+          <a class="textdecoration" href="cardapio.html">
+            <h2>Nossas Pizzas</h2>
+          </a>
+          <a class="textdecoration" href="sobre.html">
+            <h2>Sobre Nós</h2>
+          </a>
+          <a href="" class="textdecoration">
+            <h2>Carrinho</h2>
+          </a>
+          <a class="textdecoration" href="login.html">
+            <h2>Entrar</h2>
+          </a>
+        </div>
+      </section>
+    </header>
+    <section>
+      <div class="cardapio-title">
+        <h1 class="h1-cardapio">
+          Desvende os aromas e sabores <br />
+          únicos que tornam nossas pizzas <br />
+          inesquecíveis.
+        </h1>
+        <h5 class="h5-cardapio">Tamanho padrão com 8 fatias.</h5>
+      </div>
+    </section>
+
+
+
+      <div class="container-cardapio">
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="capricciosa.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Capricciosa</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Capricciosa é uma pizza típica da culinária italiana caracterizada
+              por uma cobertura de tomate, muçarela fior di latte e presunto
+              cozido.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="1" data-nome="Pizza Capricciosa" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-greca.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Greca</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Com sabores que se misturam em uma união quase idílica: azeitonas
+              Taggiasca, queijo feta, cebola roxa de Tropea e orégãos de
+              Pantelleria.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="2" data-nome="Pizza Greca" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-margherita.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Marguerita</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Pizza Marguerita é a típica pizza napolitana, coberta com tomate,
+              muçarela, manjericão fresco, sal e azeite. É a pizza italiana
+              mais popular.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="3" data-nome="Pizza Marguerita" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img class="container-cardapio-pizza" src="marinara.webp" alt="" />
+            <h3 class="title-cardapio">Marinara</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Pizza marinara é uma típica pizza napolitana coberta com tomate,
+              alho, orégano e óleo. É particularmente apreciada no sul da
+              Itália.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="4" data-nome="Pizza Marinara" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-cardapio">
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-mediterranea.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Mediterranea</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              A deliciosa pizza que chama a atenção com a 
+              combinação de berinjelas e pimentões envolvendo 
+              muçarela fior di latte.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="5" data-nome="Pizza Miditerranea" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-siciliana.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Siciliana</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Vermelho como lava, com aromas da Sicília cobertos 
+              com alcaparras de Pantelleria, azeitonas pretas e
+              anchovas do Mar Contabriano.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="6" data-nome="Pizza Siciliana" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-carbonara.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Carbonara</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              A pizza carbonara é uma reinterpretação da clássica
+              Carbonara em chave de pizzaiola.
+              Uma pizza fora do comum.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="7" data-nome="Pizza Carbonara" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img class="container-cardapio-pizza" src="pizza-diavola.webp" alt="" />
+            <h3 class="title-cardapio">Diavola</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Uma pizza clássica,  encontrada em várias 
+              pizzarias, coberta com molho de tomate, 
+              mussarela fior di latte e salame picante.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="8" data-nome="Pizza Diavola" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-cardapio">
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-quattro_stagioni.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">4 Stagioni</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Os cogumelos representam o outono, as azeitonas
+               pretas o inverno, as alcachofras representam
+                a primavera e os tomates, o verão.
+            </p>
+          </div>
+          <div class="cardapio-button  produto" data-id="9" data-nome="Pizza 4 Stagioni" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button> 
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-calabrese.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Calabrese</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              Um sabor clássico que você só encontra na Buon Cibo.
+              Calabresa, muçarela fior di latte, anchovas do mar Cantábrico e
+              alho branco.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="10" data-nome="Pizza Calabrese" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img
+              class="container-cardapio-pizza"
+              src="pizza-verdure.webp"
+              alt=""
+            />
+            <h3 class="title-cardapio">Verdure</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              A deliciosa pizza que chama a atenção com a 
+              combinação de berinjelas, pimentões e abobrinhas
+              envolvendo e mussarela fior di latte.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="11" data-nome="Pizza Verdure" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="pizza-cardapio">
+          <div class="pizza-content-infos">
+            <img class="container-cardapio-pizza" src="pizza-piccantina.webp" alt="" />
+            <h3 class="title-cardapio">Piccantina</h3>
+            <div class="value">
+              <p>R$30,00</p>
+            </div>
+            <p class="description-cardapio">
+              A pizza Piccantina é um verdadeiro triunfo.
+              Recheado com mozzarella fior di latte, 
+              friarielli, salame picante e anchovas do mar Cantábrico.
+            </p>
+          </div>
+          <div class="cardapio-button produto" data-id="12" data-nome="Pizza Piccantina" data-preco="30.00">
+            <form class="quantidade">
+              <button class="sub"> 
+                <i class="fa-solid fa-minus"></i> 
+              </button>
+              <input class="selector-amount" type="number">
+              <button class="sub2">
+                 <i class="fa-solid fa-plus"></i></i> 
+              </button>
+            </form>
+            <button class="carrinho item">
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer-father">
+        <div class="footer-div">
+          <img src="pizza (7).png" alt="Buon Cibo" class="img-footer" />
+          <hr width="800px" />
+          <p class="pfooter">Nos acompanhe nas redes sociais.</p>
+          <div class="container-footer">
+            <a href=""
+              ><img src="facebook (4).png" alt="Facebook" class="icon-footer"
+            /></a>
+            <a href=""
+              ><img src="instagram (2).png" alt="Instagram" class="icon-footer"
+            /></a>
+            <a href=""
+              ><img src="twitter (4).png" alt="Twitter" class="icon-footer"
+            /></a>
+            <a href=""
+              ><img src="whatsapp.png" alt="WhatsApp" class="icon-footer"
+            /></a>
+          </div>
+          <p id="paragrafo-footer">
+            © Buon Cibo S.A | Todos os direitos reservados 2023 | CNPJ
+            00.000.000/0000-00
+          </p>
+        </div>
+      </footer>
+      <script src="./jquery-3.7.0.min.js"></script>
+      <script>
+        $(document).ready(function() {
+      $(".item").click(function() {
+        const produto = $(this).closest(".produto");
+        const id = produto.data("id");
+        const nome = produto.data("nome");
+        const preco = produto.data("preco");
+        const quantidade = 1; // Você pode definir a quantidade de acordo com suas necessidades.
+
+        const item = {
+          id: id,
+          nome: nome,
+          preco: preco,
+          quantidade: quantidade
+        };
+
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+        const index = carrinho.findIndex((element) => element.id === id);
+
+        if (index !== -1) {
+          // Se o item já existe no carrinho, incrementa a quantidade
+          carrinho[index].quantidade += quantidade;
+        } else {
+          // Caso contrário, adiciona o item ao carrinho
+          carrinho.push(item);
+        }
+
+        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+
+        atualizarCarrinho();
+      });
+
+      function atualizarCarrinho() {
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
+        const carrinhoDiv = $("#carrinho ul");
+        carrinhoDiv.empty();
+
+        let total = 0;
+        carrinho.forEach(item => {
+          const subtotal = item.preco * item.quantidade;
+          total += subtotal;
+          carrinhoDiv.append(`<li>${item.nome} - R$ ${item.preco} x ${item.quantidade} = R$ ${subtotal.toFixed(2)}</li>`);
+        });
+
+        carrinhoDiv.append(`<li><strong>Total: R$ ${total.toFixed(2)}</strong></li>`);
+      }
+
+      // Carregar carrinho ao carregar a página
+      atualizarCarrinho();
+    });
+      </script>
+  </body>
+</html>
